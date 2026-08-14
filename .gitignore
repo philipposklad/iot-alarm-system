@@ -72,3 +72,6 @@ Testing/
 .theia/
 .vscode/
 .idea/
+
+# Editable documentation sources
+docs/*.docx
