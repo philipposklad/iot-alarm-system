@@ -32,6 +32,12 @@ The regulator circuit was configured using:
 
 The measured output voltage of the implemented circuit was approximately **3.33 V**.
 
+### Voltage Regulator Circuit
+
+<p align="center">
+  <img src="schematics/voltage-regulator-circuit.png" width="650" alt="LM317 voltage regulator circuit">
+</p>
+
 ## General Circuit Architecture
 
 <p align="center">
@@ -55,6 +61,31 @@ Normally, such a keypad requires seven digital I/O connections. Since the NodeMC
 This allows the complete keypad to be read using only **one analog input**.
 
 Each key produces a different voltage level, which is measured by the NodeMCU ADC and mapped to the corresponding button.
+
+### Analog Keypad Circuit
+
+<p align="center">
+  <img src="schematics/keypad-circuit.jpg" width="650" alt="Analog voltage-divider circuit for the 3x4 keypad">
+</p>
+
+### Keypad ADC Values
+
+The voltage-divider network generates a distinct analog voltage for each key. The NodeMCU reads this voltage through its analog input and maps the corresponding ADC value to the pressed key.
+
+| Key | Input Voltage (V) | ADC Value (0–1023) |
+|:---:|---:|---:|
+| 1 | 0.16 | 48 |
+| 2 | 0.30 | 87 |
+| 3 | 0.44 | 129 |
+| 4 | 0.64 | 196 |
+| 5 | 1.04 | 310 |
+| 6 | 1.36 | 412 |
+| 7 | 1.77 | 546 |
+| 8 | 2.27 | 692 |
+| 9 | 2.56 | 782 |
+| * | 2.78 | 857 |
+| 0 | 3.01 | 921 |
+| # | 3.13 | 955 |
 
 ## Main Components
 
