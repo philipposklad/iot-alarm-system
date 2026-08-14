@@ -4,6 +4,16 @@ This directory contains the hardware documentation for the IoT Home Security Sys
 
 The system was designed around the **NodeMCU ESP8266**, combining low-cost electronic components with a 12 V alarm infrastructure. The hardware handles sensor inputs, local user interaction through a keypad, siren control, and communication with the cloud-connected firmware.
 
+## Hardware Prototype
+
+<p align="center">
+  <img src="images/prototype-internal.jpg" width="650" alt="Internal hardware implementation of the IoT Alarm System">
+</p>
+
+The prototype was assembled on a custom prototype board and integrated
+into an electrical enclosure together with the backup battery, keypad,
+power circuitry, sensor connections and alarm outputs.
+
 ## Hardware Architecture
 
 The prototype uses two main voltage levels:
@@ -21,6 +31,12 @@ The regulator circuit was configured using:
 - C2 = 1 μF
 
 The measured output voltage of the implemented circuit was approximately **3.33 V**.
+
+## General Circuit Architecture
+
+<p align="center">
+  <img src="schematics/general-circuit-diagram.png" width="900" alt="General circuit diagram of the IoT Alarm System">
+</p>
 
 ## Output Isolation and Control
 
