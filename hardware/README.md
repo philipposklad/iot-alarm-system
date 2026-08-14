@@ -35,7 +35,7 @@ The measured output voltage of the implemented circuit was approximately **3.33 
 ### Voltage Regulator Circuit
 
 <p align="center">
-  <img src="schematics/voltage-regulator-circuit.png" width="650" alt="LM317 voltage regulator circuit">
+  <img src="schematics/LM317-voltage-regulator-circuit.png" width="650" alt="LM317 voltage regulator circuit">
 </p>
 
 ## General Circuit Architecture
