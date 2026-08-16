@@ -148,3 +148,16 @@ RTA-CSIT 2025, CEUR Workshop Proceedings, Vol. 4044, 2025.**
 ├── firmware/
 ├── hardware/
 └── images/
+
+## License
+
+Except for the `docs/` directory, the original content in this repository is
+licensed under the [MIT License](LICENSE).
+
+The contents of [`docs/`](docs/) are licensed separately under the
+Creative Commons Attribution-NoDerivatives 4.0 International License
+(CC BY-ND 4.0). See [`docs/LICENSE`](docs/LICENSE) for details.
+
+The associated academic publication is subject to the licensing terms of its
+original publisher.
+
