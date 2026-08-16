@@ -148,7 +148,7 @@ RTA-CSIT 2025, CEUR Workshop Proceedings, Vol. 4044, 2025.**
 ├── firmware/
 ├── hardware/
 └── images/
-
+```
 ## License
 
 Except for the `docs/` directory, the original content in this repository is
